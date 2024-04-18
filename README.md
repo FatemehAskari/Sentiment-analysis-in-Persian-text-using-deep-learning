@@ -3,6 +3,11 @@ We have developed a text classification model for Persian language using the [Ar
 
 ## Table of Contents
 
+1. [Dataset](#dataset)
+2. [Model](#model)
+3. [Results](#results)
+4. [How to run](#how-to-run)
+5. [References](#references)
 
 ## Dataset
 The ArmanEmo dataset has been collected from various sources, including Persian tweets from Twitter, users' comments on Instagram, and customers' comments on Digikala (an online shopping platform). These sources were chosen to capture a diverse range of textual data that reflects individuals' emotions and opinions on social and political topics. The dataset aims to be representative and encompass different online platforms commonly used in Iran, where individuals express their ideas and emotions.
@@ -29,7 +34,7 @@ F1 score: 0.7094612321075684
 
 And the confusion matrix was as follows:
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](assets/confusion_matrix.png)
 
 You can refer to the accompanying PDF document for detailed implementation steps. Please see the [PDF file](IntroDL_Project_SadeghPoulaei_FatemehAskari.pdf) for a comprehensive guide on how to execute the code.
 
@@ -42,6 +47,7 @@ You can refer to the accompanying PDF document for detailed implementation steps
 ## References
 
 https://huggingface.co/docs/transformers/en/tasks/sequence_classification
+
 https://arxiv.org/pdf/2207.11808.pdf
 
 
